@@ -10,7 +10,7 @@ public class DiscountService {
             discountPercent = 10;
         } else if(grade == ClassGrade.GOLD) {
             discountPercent = 20;
-        } else if(gsrade == ClassGrade.DIAMOND) {
+        } else if(grade == ClassGrade.DIAMOND) {
             discountPercent = 30;
         } else {
             System.out.println(grade + ": 할인 X");
